@@ -1,0 +1,11 @@
+.noapp{
+  /* height: 100vh;  */
+background-color:black;
+color: white;
+ }
+
+.main-page-content{
+height: calc(100%-80px);
+}
+
+  

@@ -1,0 +1,138 @@
+
+
+.wapper{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1rem;
+    text-transform: capitalize;
+    color: var(--yellow-theme-main-color);
+    display: flex;
+    flex-grow:1;
+
+}
+span{
+    color: var(--yellow-theme-main-color);
+}
+.about{
+    display: flex;
+
+gap: 20px;
+padding: 50px;
+width: 100%;
+height: 100vh;
+}
+.aboutfirst{
+    width: 50%;
+    
+}
+
+ h3{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: var(--yellow-theme-main-color);
+    font-weight: 200;
+}
+.aboutsecond h3{
+    padding-top: 20px;
+}
+.aboutp{
+    font-size: 1.8rem;
+    line-height: 1.68;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+}
+ul>li{
+    line-height: 1rem;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+ul{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-bottom: 2px solid var(--yellow-theme-main-color); 
+    position: relative
+    ;
+    display: inline-block;
+    margin-right: 16px;
+    padding-bottom: 1px;
+}
+.survicewrapper{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(170px , var(--yellow-theme-main-color),transparent);
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid var(--yellow-theme-main-color);
+    /* margin-right: 50px; */
+    animation: rotate 10s linear 1s infinite ;
+    
+}
+.survicewrappermain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    /* margin-right: 50px; */
+}
+
+
+.child1{
+    position: absolute;
+    top: -6%;
+    left: 41%;
+}
+.child2{
+    position: absolute;
+    right: -7%;
+    top: 41.5%;
+}.child3{
+    position: absolute;
+    bottom: -9%
+    ;
+    left: 41%;
+}
+.child4{
+    position: absolute;
+    left: -9%;
+    top: 41%;
+
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@media  (max-width: 770px){
+    .about{
+        flex-direction: column;
+        width: 50%;
+        height: 200vh;
+    }
+    .aboutfirst{
+        width: 100%;
+        /* background-color: black; */
+    }
+   
+    .survicewrapper{
+        margin-left: 25%;
+        margin-top: 50px;
+       
+    }
+ul>li{
+    width: -10px ;
+    line-height: 2.5rem;
+}
+}

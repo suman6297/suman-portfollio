@@ -1,0 +1,77 @@
+.skilldata{
+display: flex;
+padding: 20px;
+
+gap: 20px;
+height: 100vh;
+
+}
+.skilldatafirst{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.textitem{
+    display: inline-block;
+    color: var(--yellow-theme-main-color);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid var(--yellow-theme-main-color);
+}
+.textitem::before ,.textitem::after{
+    position: absolute;
+    content: " ";
+    width: 2px;
+    height: 5px;
+    background-color: var(--yellow-theme-main-color);
+    bottom: -1px;
+}
+.textitem::before{
+    left: 0;
+}
+.textitem::after{
+    right: 0;
+}
+
+.divfirst{
+    width: 100%;
+
+}
+.progress{
+    padding: 50px 0px 0px 0px;
+}
+.pfirst{
+    font-size: 1.6rem;
+    margin: 0 0 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.dh{
+    animation: html 2s;
+    height: 5px;
+    width: 30rem;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 90%;
+    }
+}
+@media (max-width:770px) {
+    .skilldata{
+        flex-direction: column;
+        height: 185vh;
+    }
+    .divfirst{
+        margin-bottom: 50px;
+    }
+    
+}

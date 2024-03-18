@@ -1,0 +1,111 @@
+.wapper{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px dashed var(--yellow-theme-main-color);
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1rem;
+    text-transform: capitalize;
+    color: var(--yellow-theme-main-color);
+    display: flex;
+    flex-grow:1;
+
+}
+span{
+    color: var(--yellow-theme-main-color);
+}
+.contactmain{
+    height: 100vh;
+}
+.contact{
+    padding: 20px;
+}
+.contacth3{
+    color: var( --yellow-theme-sub-text-color);
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid var(--yellow-theme-main-color);
+}
+
+.contacth3::before ,.contacth3::after{
+    position: absolute;
+    content: " ";
+    width: 2px;
+    height: 5px;
+    background-color: var(--yellow-theme-main-color);
+    bottom: -1px;
+}
+.contacth3::before{
+    left: 0;
+}
+.contacth3::after{
+    right: 0;
+}
+.formmain{
+    margin-top: 30px;
+
+}
+.from{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.name{
+    position: relative;
+    
+}
+.mainname,.mainemail,.maindescription{
+    width: 100%;
+    border: 2px solid var(--yellow-theme-main-color);
+    padding: 16px 12px;
+    transition: all 0.5s ease;
+    position: relative;
+    background-color: transparent;
+    color: var(--yellow-theme-main-color);
+}
+.namelable,.emaillable,.descriptionlable{
+    font-weight: 500;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    transition: all 0.2 ease;
+    color: var(--yellow-theme-sub-text-color);
+    font-size: 16px;
+}
+.mainname:focus,
+.mainemail:focus,
+.maindescription:focus{
+    outline: none;
+}
+.mainname:focus +.namelable,
+.mainname:valid+.namelable,
+.mainemail:focus+.emaillable,
+.mainemail:valid+.emaillable,
+.maindescription:focus+.descriptionlable,
+.maindescription:valid+.descriptionlable
+
+{
+    font-size: 18px;
+    top: -30px;
+    left: 0px;
+}
+.button2{
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    display: flex;
+    /* text-align: center; */
+    /* margin-left: 50%; */
+}
