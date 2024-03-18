@@ -1,5 +1,5 @@
 
-import { Routes,Route , useLocation, Router } from 'react-router-dom';
+import { Routes,Route , useLocation,  HashRouter } from 'react-router-dom';
 import './App.css';
 // import Particles from "react-tsparticles";
 // import { loadFull } from "react-tsparticles";
@@ -34,8 +34,8 @@ function App() {
 	
       <Navbar/>
 <div className=' main-page-content'>
-    <Router basename='/suman-portfolio'>
-    
+   
+    <HashRouter>
     <Routes>
       <Route path='/'
       element={<Home/>}/>
@@ -56,7 +56,8 @@ function App() {
       element={<Contact/>}/>
 
 </Routes>
-</Router>
+</HashRouter>
+
 </div>
 
     </div>
