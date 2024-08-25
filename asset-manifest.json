@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suman-portfollio/static/css/main.c2fd6450.css",
-    "main.js": "/suman-portfollio/static/js/main.3fbab4e6.js",
+    "main.css": "/suman-portfollio/static/css/main.1d2549a4.css",
+    "main.js": "/suman-portfollio/static/js/main.d9d56612.js",
     "static/js/1927.e82318f3.chunk.js": "/suman-portfollio/static/js/1927.e82318f3.chunk.js",
     "static/js/7590.f5345d6f.chunk.js": "/suman-portfollio/static/js/7590.f5345d6f.chunk.js",
     "static/js/6725.2c6bbc76.chunk.js": "/suman-portfollio/static/js/6725.2c6bbc76.chunk.js",
@@ -73,8 +73,8 @@
     "static/js/4290.44f1f260.chunk.js": "/suman-portfollio/static/js/4290.44f1f260.chunk.js",
     "static/media/resume.pdf": "/suman-portfollio/static/media/resume.44990d765a1ce845bd31.pdf",
     "index.html": "/suman-portfollio/index.html",
-    "main.c2fd6450.css.map": "/suman-portfollio/static/css/main.c2fd6450.css.map",
-    "main.3fbab4e6.js.map": "/suman-portfollio/static/js/main.3fbab4e6.js.map",
+    "main.1d2549a4.css.map": "/suman-portfollio/static/css/main.1d2549a4.css.map",
+    "main.d9d56612.js.map": "/suman-portfollio/static/js/main.d9d56612.js.map",
     "1927.e82318f3.chunk.js.map": "/suman-portfollio/static/js/1927.e82318f3.chunk.js.map",
     "7590.f5345d6f.chunk.js.map": "/suman-portfollio/static/js/7590.f5345d6f.chunk.js.map",
     "6725.2c6bbc76.chunk.js.map": "/suman-portfollio/static/js/6725.2c6bbc76.chunk.js.map",
@@ -146,7 +146,7 @@
     "4290.44f1f260.chunk.js.map": "/suman-portfollio/static/js/4290.44f1f260.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2fd6450.css",
-    "static/js/main.3fbab4e6.js"
+    "static/css/main.1d2549a4.css",
+    "static/js/main.d9d56612.js"
   ]
 }
